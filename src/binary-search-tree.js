@@ -9,12 +9,12 @@ class Node {
 }
 
 class BinarySearchTree {
-  contructor() {
+  constructor() {
     this._root = null
   }
 
   root() {
-    return this._root || null
+    return this._root
   }
 
   add(data) {
